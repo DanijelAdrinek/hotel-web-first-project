@@ -1,0 +1,1890 @@
+body{
+    margin: 0;
+}
+
+.top-nav{
+    background-color: rgb(65, 65, 65);
+    width: 100%;
+    height: 60px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    position: absolute;
+    z-index: 10;
+    position: fixed;
+}
+
+.brand{
+    margin-left: 60px;
+    width: 190px;
+}
+
+.top-text{
+    cursor: pointer;
+    size: 25px;
+    margin-left: 20px;
+    color:rgb(235, 235, 235);
+    position: relative;
+    bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.top-things{
+    position: absolute;
+    height: 50px;
+    width: 500px;
+    top: 9px;
+    right: 15%;
+    display: flex;
+    list-style-type: none;
+}
+
+.web-templates{
+    border-bottom: 4px transparent solid;
+    position: relative;
+    color: white;
+    font-family: inherit;
+    font-size: large;
+    text-decoration: none !important;
+}
+
+.web-templates::after, .more-web-templates::after{
+    position: relative;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.web-templates::after{
+    top: 3px;
+}
+.more-web-templates::after{
+    top: 8px;
+}
+
+.more-web-templates{
+    position: relative;
+    margin-left: 35px;
+    color: white;
+    font-family: inherit;
+    font-size: large;
+    text-decoration: none !important;
+    display: flex;
+}
+
+.download-button, .download-button-two{
+    padding: 5px 10px;
+    height: 17px;
+    position: relative;
+    background-color: white;
+    border-color: white;
+    cursor: pointer;
+    align-items: center;
+    white-space: normal;
+    font-family: sans-serif;
+    font-style: normal;
+    word-break: break-word;
+    font-weight: 400px;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.download-button{
+    top: 22px;
+    left: 460px;
+}
+.download-button-two{
+    top: 20px;
+}
+
+.download-button:hover, .download-button-two:hover{
+    background-color: lightgrey;
+}
+
+.together{
+    width: 650px;
+    height: 50px;
+    bottom: 20px;
+    display: flex;
+    position: absolute;
+    right: 6%;
+}
+
+.hamburger{
+    margin-left: 90%;
+    width: 40px;
+    height: 30px;
+    bottom: 49px;
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.white1{
+    background-color: white;
+    width: 40px;
+    height: 4px;
+    font-stretch: 100%;
+    position: absolute;
+    box-sizing: border-box;
+    display: block;
+}
+
+#W2{
+    margin-top: 33%;
+}
+
+#W3{
+    margin-top: 66%;
+}
+
+.slide-down-bar{
+    height: 107px;
+    width: 100%;
+    background-color: rgb(65, 65, 65);
+    position: fixed;
+    margin-top: 60px;
+    text-align: center;
+    display: none;
+    z-index: 9;
+}
+
+.website-templates{
+    color: white;
+    position: relative;
+    display: block;
+    text-decoration: none;
+
+    height: 15%;
+    margin-top: 10px;
+}
+
+.more-website-templates{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    color: white;
+    height: 15%;
+    margin-top: 1.5%;
+}
+
+.hamburger.hamburger-opened #W1{
+    transform-origin: 0px;
+    animation: x-line1 0.5s forwards;
+}
+
+.hamburger.hamburger-opened #W2{
+    animation: x-line2 0.5s forwards;
+}
+
+.hamburger.hamburger-opened #W3{
+    transform-origin: 0px;
+    animation: x-line3 0.5s forwards;
+}
+
+@keyframes x-line1{
+    from{}
+    to{transform: rotateZ(45deg); left: 5px}
+}
+
+@keyframes x-line2{
+    from{}
+    to{transform: rotateX(90deg);}
+}
+
+@keyframes x-line3{
+    from{}
+    to{transform: rotateZ(-45deg); left: 5px}
+}
+
+.hide-slide-down{
+    margin-left: 90%;
+    width: 40px;
+    height: 30px;
+    bottom: 49px;
+    display: none;
+    position: relative;
+    cursor: pointer;
+}
+
+.image1{
+    background-image: url("https://mobirise.com/website-templates/hotel-website-templates/assets/images/background1.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.all{
+    position: absolute;
+    width: 100%;
+    top: 24%;
+    text-align: center;
+    z-index: 3;
+}
+
+.title1{
+    z-index: 3;
+    display: block;
+    font-family: 'Gilda Display', serif;
+    color: white;
+    font-size: 72px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+.transparent-background{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    position: absolute;
+    z-index: 1;
+}
+
+.containerB{
+    width: 100%;
+    height: 100px;
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+
+.containerS{
+    width: 600px;
+    height: 120px;
+    position: relative;
+}
+
+.box{
+    height: 100%;
+    width: 25%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    float: left;
+    font-size: 12px;
+    color: rgb(65, 65, 65);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.check{
+    height: 100%;
+    width: 25%;
+    background-color: #333333;
+    display: flex;
+    float: left;
+    color: white;
+    align-items: center;
+    text-align: center;
+    font-weight: 100;
+    font-size: 12px;
+    letter-spacing: 3px;
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.check:hover{
+background-color: rgb(13, 13, 13);
+}
+
+.Inp{
+    height: 50px;
+    width: 147px;
+    opacity: 0;
+    position: relative;
+    top: 35px;
+    z-index: 1;
+    display: flex;
+}
+
+
+.checkInInput{
+    border: none;
+    right:46px;
+}
+
+.checkOutInput{
+    border-bottom: none;
+    border-top: none;
+    border-right-color: rgb(100, 100, 100);
+    border-left-color: rgb(100, 100, 100);
+    right:48px;
+}
+.input3{
+    right: 50px;
+    border: none;
+}
+
+.P{
+    display: block;
+    position: relative;
+    left: 65px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    line-height: 12px;
+    text-size-adjust: 100%;
+    text-indent: -60%;
+}
+
+.date-row{
+    width: 100px;
+    height:50px;
+    z-index: 4;
+    position: relative;
+    right: 165px;
+    top: 34px;
+    box-sizing: border-box;
+}
+
+.number-display{
+    font-size: 50px;
+    font-family: 'Gilda Display', serif;
+    font-weight: 500;
+}
+
+.date{
+    position: relative;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    margin-left: 20px;
+    bottom: 40px;
+    left: 30px;
+}
+
+.arrow-down{
+    width: 20px;
+    height: 10px;
+    box-shadow: -2px 2px 0 rgba(255, 255, 255, .5);
+    display: block;
+    transform: rotate(90deg);
+    position: relative;
+}
+
+.arrow-up{
+    width: 20px;
+    height: 10px;
+    box-shadow: -2px 2px 0 rgba(255, 255, 255, .5);
+    display: block;
+    transform: rotate(-90deg);
+    position: relative; 
+}
+
+.margin-down{
+    margin-bottom: 4px;
+    right: 3px;
+}
+
+.up{
+    bottom: 2px;
+}
+
+
+
+.dropdown{
+    height: 500px;
+    z-index: 10;
+}
+
+.Drop1{
+    width: 151px;
+    display: contents;
+}
+
+.Drop2{
+    width: 250px;
+    display: contents;
+}
+
+.dropdown-bar{
+    width: 220px;
+    height: 100%;
+    position: relative;
+    background-color: white;
+}
+
+.drop2{
+    left: 21px;
+    display: none;
+}
+
+.drop1{
+    right: 35px;
+    display: none;
+}
+
+.AA{
+    width: 100%;
+    height: 11%;
+    padding-top: 20%;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: rgb(150, 150, 150);
+}
+
+.AA:hover{
+    color: rgb(75, 75, 75);
+    background-color: rgb(230, 230, 230);
+}
+
+.AA1{
+    border-top: 2px grey solid;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    top: 100%;
+    background-color: black;
+    margin: 0;
+}
+
+.img-wrap{
+    width: 50%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    margin: 0;
+    display: inline-block;
+}
+
+.img2{
+    width: 150%;
+    height: 120%;
+    bottom: 10%;
+    right: 10%;
+    position: relative;
+}
+
+.text-container{
+    width: 40%;
+    height: 80%;
+    position: relative;
+    float: right;
+    align-items: center;
+    padding: 5%;
+}
+
+.tidle{
+    width: 100%;
+    font-size: 55px;
+    color: white;
+    font-family: 'Gilda Display', serif;
+    font-weight: 200;
+    letter-spacing: 1px;
+    position: relative;
+    line-height: 1.2;
+}
+
+.brown{
+    color: #c19b76;
+}
+
+.tex{
+    color: rgb(135, 135, 135);
+    width: 45%;
+    font-size: 20px;
+    font-weight: 100;
+    float: left;
+    position: relative;
+}
+
+.text2{
+    margin-left: 15px;
+}
+
+.button2{
+    text-decoration: none;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    padding: 18px 32px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button2:hover{
+    background-color: black;
+}
+
+.bg-white{
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 110%;
+    top: 200%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.content-div{
+    padding: 3% 3% 2% 3%;
+    width: 94%;
+    height: 90%;
+}
+
+.tittles{
+    position: relative;
+    width: 100%;
+    height: 150px;
+    text-align: center;
+}
+
+.title-small{
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+.line-container{
+    width: 100%;
+    height: 20px;
+    padding-bottom: 10px;
+}
+
+.line{
+    height: 2px;
+    width: 30px;
+    background-color: rgb(135, 135, 135);
+    display: inline-block;
+}
+
+.title-big{
+    font-weight: 300;
+    font-size: 56px;
+    letter-spacing: 1px;
+    margin: 0;
+
+}
+
+.hotel-rooms{
+    width: 96%;
+    height: 75%;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 3%;
+    position: relative;
+}
+
+.room1{
+    width: 45%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+}
+
+.image.r1{
+    height: 58%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.r1-pic{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.r1-pic:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.text.r1{
+    position: relative;
+    width: 93%;
+    height: 34%;
+    padding: 3% 3% 4% 4%;
+    background-color: white;
+}
+
+.small-room{
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin: 0;
+    padding-bottom: 7px;
+}
+
+.guest{
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.home{
+    width: 20px;
+    height: 20px;
+    margin-left: 12px;
+    float: left;
+}
+
+.r1.p1{
+    margin: 0;
+    padding-left: 7px;
+    width: 70px;
+    position: relative;
+    display: flex;
+    float: left;
+    font-weight: 100;
+}
+
+.r1.p2{
+    margin: 0;
+    padding-left: 8px;
+    padding-top: 2px;
+}
+
+.book{
+    background-color: rgb(51, 51, 51);
+    padding: 12px 23px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 2px;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.book:hover{
+    background-color: rgb(15, 15, 15);
+}
+
+.other-rooms{
+    width: 50%;
+    height: 100%;
+    display: block;
+    position: relative;
+    float: left;
+    padding-left: 30px;
+}
+
+.top-row{
+    height: 48%;
+    width: 100%;
+    margin-bottom: 4%;
+}
+
+.room2-div{
+    height: 100%;
+    max-width: 50%;
+    float: left;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+.room2{
+    height: 120%;
+    width: 170%;
+    right: 35%;
+    bottom: 10%;
+    position: relative;
+    transition: 0.5s all;
+}
+
+.room2:hover{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.room3-div{
+    height: 100%;
+    max-width: 50%;
+    overflow: hidden;
+}
+
+.bottom-row{
+    height: 48%;
+    width: 100%;
+}
+
+.OR-text{
+ width: 100px;
+ position: relative;
+ bottom: 37%;
+ left: 10px;
+ color: white;
+ font-size: 14px;
+ font-weight: 100;
+ font-family: 'Roboto', sans-serif;
+ margin: 0;
+ display: inline-block;
+}
+
+.OR-price{
+    width: 75px;
+    background-color: #c19b76;
+    padding: 0 .5rem;
+    position: relative;
+    left: 50px;
+    bottom: 37%;
+    margin: 0;
+    display: inline-block;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.textAndPrice{
+    bottom: 80px;
+    position: relative;
+}
+
+.txt-width{
+    width: 110px;
+}
+
+.price-width{
+    width: 85px;
+}
+
+.Ssize{
+    position: absolute;
+    top: 310%;
+    height: 100%;
+    width: 100%;
+}
+
+.img-container-div{
+    
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-attachment: scroll;
+}
+
+.img-container{
+    background-image: url("https://mobirise.com/website-templates/hotel-website-templates/assets/images/background5.jpg");
+    height: 100%;
+    width: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+}
+
+.the-container{
+    width: 80%;
+    height: 90%;
+    margin: 5% 10%;
+}
+
+.services-title{
+    font-family: 'Gilda Display', serif;
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-align: center;
+    color: white;
+}
+
+.content-services{
+    height: 100%;
+    width: 100%;
+}
+
+.Service{
+    margin-right: 20px;
+    width: 22%;
+    margin: 0 20px 0 0;
+    display: block;
+    float: left;
+    
+}
+
+.top{
+    height: 115px;
+    width: 78%;
+    background-color: rgb(193, 155, 118);
+    display: inline-block;
+    margin: 0;
+    padding: 20px 11% 0 11%;
+}
+
+.top-span{
+    font-size: 14.4px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+.table{
+    margin-top: 10px;
+}
+
+.Service-price{
+    font-size: 30.4px;
+    color: white;
+    font-family: 'Gilda Display', serif;
+}
+
+.per-day{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-top: 18px;
+}
+
+.list-container{
+    width: 75%;
+    padding-left: 12.5%;
+    padding-right: 12.5%;
+}
+
+.list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.Service-item{
+    padding: 4px 2px;
+    border-bottom: 1px rgb(239, 239, 239) solid;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(51, 51, 51);
+    font-weight: 100;
+    font-size: 16.4px;
+}
+
+.read-more-div{
+    margin-top: 37px;
+    width: 100%;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.read-more{
+    padding: 10px 30px;
+    background-color: rgb(193, 155, 118);
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-decoration-style: solid;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.read-more:hover{
+    background-color: #977049;
+}
+
+.bottom{
+    background-color: white;
+    bottom: 16px;
+    position: relative;
+}
+
+.basic-bottom{
+    height: 170px;
+}
+
+.standard-bottom{
+    height: 200px;
+}
+
+.premium-bottom{
+    height: 230px;
+}
+
+.all-bottom{
+    height: 260px;
+}
+
+.around{
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    top: 410%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.h2-center{
+    width: 100%;
+    text-align: center;
+}
+
+.around-title{
+    font-family: 'Gilda Display', serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-bottom: 25px;
+}
+
+.content-container{
+height: 73%;
+width: 77%;
+padding: 3% 11.5%;
+}
+
+.content-pictures{
+    margin-top: 20px;
+    width: 100%;
+    height: 80%;
+}
+
+.immg-div{
+    width: 30%;
+    height: 100%;
+    overflow: hidden;
+    float: left;
+    text-align: center;
+}
+
+.img1-div{
+    margin-right: 4.5%;
+}
+
+.img2-div{
+    margin-right: 4.5%;
+}
+
+.immg{
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.over-picture{
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 23.2%;
+    height: 58.2%;
+    z-index: 3;
+    position: absolute;
+}
+
+#over-pic1:hover + img#pic1{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#over-pic2:hover + img#pic2{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+#over-pic3:hover + img#pic3{
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+.white-text-over-picture{
+    color: white;
+    position: relative;
+    font-size: 30.4px;
+    font-family: "Gilda Display", serif;
+    font-weight: 400;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.white-text-over-picture:hover{
+    color: lightgrey;
+}
+
+.fix{
+    width: 100%;
+    height: 20%;
+    z-index: 4;
+}
+
+.texts-picture{
+    position: relative;
+    bottom: 127%;
+    width: 100%;
+    height: 150%;
+    text-align: center;
+    z-index: 4;
+}
+
+.small-text{
+    margin-bottom: 0;
+    margin-top: 10px;
+    color: white;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.client-reviews{
+    width: 100%;
+    height: 100%;
+    top: 500%;
+    position: absolute;
+}
+
+.background-image{
+    background-image: url("https://mobirise.com/website-templates/hotel-website-templates/assets/images/background7.jpg");
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
+}
+
+.over-bg-image{
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    z-index: 1;
+}
+
+.client-container{
+    margin: 0% 5%;
+    padding: 4% 0%;
+    width: 90%;
+    height: 83.5%;
+    z-index: 4;
+    position: absolute;
+}
+
+.client-title{
+    color: white;
+    font-family: "Gilda Display", serif;
+    font-size: 56px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    z-index: 5;
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 47px;
+}
+
+.testimonials-container{
+    width: 70%;
+    height: 80%;
+    display: block;
+    margin: 0% 15%;
+}
+
+.testimonial{
+    width: 100%;
+    height: 47%;
+    background-color: rgb(193, 155, 118);
+    float: left;
+}
+
+#testimonial1{
+    margin-bottom: 30px;
+}
+
+.left{
+    width: 25%;
+}
+
+#left1{
+    float: left;
+}
+
+#left2{
+    float: right;
+}
+
+.client-img{
+    margin: 15px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.client{
+    height: 100%;
+    width: 100%;
+}
+
+.right{
+    width: 70%;
+    float: left;
+    display: block;
+    padding: 2rem 2rem 2rem 0;
+}
+
+.em1{
+    color: white;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+.client-name{
+    color: white;
+    font-size: 17.5px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.traveler{
+    color: white;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.scroll-to-top {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    z-index: 999;
+    opacity: .5;
+    border-radius: 5px;
+    display: none;
+    transition: 0.5s;
+}
+
+.scroll-to-top span {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.scroll-to-top:hover{
+    opacity: .68;
+}
+
+.just-title{
+    width: 100%;
+    height: 20%;
+    top: 600%;
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(239, 239, 239);
+}
+
+.big-title{
+    font-family: 'Gilda Display', serif;
+    display: block;
+    letter-spacing: 1px;
+    font-size: 56px;
+    font-weight: 100;
+    margin: 0%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.G-maps{
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    top: 620%;
+}
+
+.google-map{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.Google-map{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    filter: grayscale(100%);
+}
+
+.footer1{
+    width: 100%;
+    height: 30%;
+    position: absolute;
+    top: 670%;
+    background-color: rgb(35, 35, 35);
+}
+
+.div-content{
+    width: 100%;
+    height: 80%;
+    position: relative;
+    top: 15%;
+}
+
+.div-container{
+    position: relative;
+    margin-left: 13%;
+    margin-right: 10%;
+    width: 74%;
+    height: 100%;
+    color: white;
+}
+
+.div1{
+    float: left;
+    width: 32.5%;
+    height: 100%;
+    position: relative;
+}
+
+.right1{
+    width: 35%;
+}
+
+.footer-top-text{
+    font-family: "Gilda Display", serif;
+    font-size: 30.4px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 8px;
+    font-stretch: ultra-expanded;
+}
+
+.footer-text{
+    font-size: 12px;
+    font-weight: 100;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 24px;
+    color: rgb(204, 204, 204);
+}
+
+.follow{
+    left: 9%;
+    position: relative;
+}
+
+.email-div{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+}
+
+.email-input{
+    width: 58%;
+    background-color: black;
+    color: white;
+    padding: 5% 3%;
+    border: none;
+    float: left;
+}
+
+.submit{
+    width: 36%;
+    float: left;
+    background-color: #c19b76;
+    padding: 5.2% 0.7%;
+    position: relative;
+    color: white;
+    border-color: #c19b76;
+    font-weight: 600;
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: 0.5s;
+    border: none;
+}
+
+.submit:hover{
+    background-color: rgb(161, 117, 73);
+    border-color: rgb(161, 117, 73);
+}
+
+.end{
+    width: 100%;
+    height: 10%;
+    top: 700%;
+    position: absolute;
+    background-color: rgb(51, 51, 51);
+}
+
+.end-div{
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.end-text{
+    color: white;
+    position: relative;
+    padding: 1.79% 0%;
+    margin: 0;
+}
+
+@media screen and (max-width: 1150px){
+    .container2{
+        height: 160%;
+    }
+    .img-wrap{
+        width: 100%;
+        height: 50%;
+    }
+    .img2{
+        width: 110%;
+        height: 100%;
+    }
+    .text-container{
+        float: none;
+        padding-bottom: 0;
+        padding-top: 0;
+        width: 90%;
+        height: 45%;
+    }
+    .texts{
+        display: block;
+    }
+    .button2{
+        width: 40px;
+        height: 30px;
+    }
+    .bg-white{
+        top: 260%;
+    }
+    .Ssize{
+        top: 370%;
+    }
+    .around{
+        top: 470%;
+    }
+    .client-reviews{
+        top: 560%;
+    }
+    .just-title{
+        top: 660%;
+    }
+    .G-maps{
+        top: 680%;
+    }
+    .footer1{
+        top: 730%;
+    }
+    .end{
+        top: 760%;
+    }
+    .OR-price{
+        left: 20px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    .bg-white{
+        height: 200%;
+    }
+    .content-div{
+        height: 96%;
+    }
+    .hotel-rooms{
+        height: 86%;
+    }
+    .room1{
+        width: 75%;
+        height: 45%;
+        margin-left: 12.5%;
+        display: block;
+    }
+    .other-rooms{
+        top: 50px;
+        width: 75%;
+        margin-left: 12.5%;
+        height: 45%;
+        padding: 0%;
+    }
+    .room2-div{
+        max-width: 50%;
+    }
+    .room3-div{
+        max-width: 50%;
+    }
+    .OR-price{
+        left: 30px;
+    }
+    .textAndPrice{
+        bottom: 84px;
+    }
+    .Ssize{
+        top: 460%;
+        height: 200%;
+    }
+    .content-services{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-right: 7.8%;
+    }
+    .basic-and-standard{
+        width: 100%;
+        height: 32.5%;
+        display: inline-block;
+    }
+    .premium-and-inclusive{
+        width: 100%;
+        height: 60%;
+    }
+    .the-container{
+        margin: 0;
+        width: 74%;
+        padding: 0% 13%;
+        position: absolute;
+    }
+    .Standard{
+        margin: 0;
+    }
+    .standard-bottom{
+        height: 265px;
+    }
+    .premium-bottom{
+        height: 280px;
+    }
+    .list-container{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 200px;
+    }
+    .lenght{
+        height: 1px;
+        width: 800px
+    }
+    .Service{
+        max-width: 50%;
+        display: block;
+        width: max-content;
+    }
+    .All-service{
+        margin: 0;
+    }
+    .basic-bottom{
+        height: 240px;
+    }
+    .services-title{
+        width: 92.3%;
+        display: block;
+    }
+    .content-services{
+        display: block;
+        position: relative;
+        float: left;
+    }
+    .around{
+        top: 660%;
+    }
+    .client-reviews{
+        top: 750%;
+        height: 150%;
+    }
+    .testimonials-container{
+        margin: 0;
+        width: 100%;
+    }
+    .left{
+        width: 33%;
+        padding-top: 8%;
+    }
+    #left2{
+        margin-right: 30px;
+    }
+    .right{
+        padding: 2rem 4rem 0 4rem;
+        width: 55%;
+    }
+    .right-class-one{
+        padding-top: 3.8rem;
+    }
+    .just-title{
+        top: 885%;
+        z-index: 2;
+    }
+    .G-maps{
+        top: 905%;
+    }
+    .footer1{
+        top: 935%;
+        height: 75%;
+    }
+    .left1{
+        width: 50%;
+        height: 45%;
+    }
+    .center1{
+        width: 50%;
+        height: 45%;
+    }
+    .right1{
+        width: 40%;
+        height: 50%;
+        margin-left: 20%;
+    }
+    .footer-top-text{
+        font-size: 25px;
+    }
+    .end{
+        top: 1010%;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    .download-button{
+        display: none;
+    }
+    .more-web-templates{
+        display: none;
+    }
+    .web-templates{
+        display: none;
+    }
+    .hamburger{
+        display: flex;
+    }
+    .around{
+        height: 160%;
+    }
+    .content-container{
+        height: 90%;
+    }
+    .immg-div{
+        width: 47.5%;
+        height: 50%;
+    }
+    .img2-div{
+        margin-right: 0;
+    }
+    .img3-div{
+        margin-left: 27.5%;
+        margin-top: 4.3%;
+    }
+    .over-picture{
+        width: 36.7%;
+        height: 36.1%;
+    }
+    .client-reviews{
+        top: 820%;
+    }
+    .just-title{
+        top: 970%;
+    }
+    .G-maps{
+        top: 990%;
+    }
+    .footer1{
+        top: 1020%;
+    }.end{
+        top: 1095%;
+    }
+}
+
+@media screen and (max-width: 950px){
+    .G-maps{
+        height: 60%;
+    }
+    .footer1{
+        top: 1050%;
+    }
+    .end{
+        top: 1125%;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .containerS{
+        width: 300px;
+        text-align: center;
+    }
+    .checkOutInput{
+        border: none;
+    }
+    .box{
+        float: none;
+        width: 300px;
+        display: block;
+        text-align: center;
+    }
+    .check{
+        margin-left: 35px;
+        width: 200px;
+        padding-left: 32px;
+    }
+    .display{
+        position: relative;
+        display: inline-block;
+    }
+    .Inp{
+        display: inline-flex;
+        left: 12px;
+    }
+    .date-row{
+        display: inline-block;
+        top: 50px;
+        left: 90px;
+        z-index: 0;
+        position: absolute;
+    }
+    .tex{
+        display: block;
+        width: 100%;
+        margin: 0;
+    }
+    .text2{
+        margin-bottom: 25px;
+    }
+    .P{
+        font-size: 20px;
+        top: 10px;
+        margin: 0%;
+        width: 210px;
+        display: inline-block;
+        right: 10px;
+    }
+    .arrow-down{
+        left: 30px;
+    }
+    .arrow-up{
+        left: 27px;
+    }
+    .image1{
+        height: 130%;
+        width: 150%;
+        background-size: 108.7%;
+    }
+    .transparent-background{
+        height: 130%;
+    }
+    .all{
+        top: 12%;
+    }
+    .container2{
+        top:130%
+    }
+    .bg-white{
+        top: 290%;
+    }
+    .Ssize{
+        top: 540%;
+    }
+    .around{
+        top: 740%
+    }
+    .client-reviews{
+        top: 900%;
+    }
+    .just-title{
+        top: 1050%;
+    }
+    .background-image{
+        background-size: 110%;
+    }
+    .G-maps{
+        top: 1070%;
+    }
+    .footer1{
+        top: 1130%;
+    }
+    .end{
+        top: 1200%;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .image1{
+        background-size: cover;
+    }
+    .bg-white{
+        height: 400%;
+    }
+    .room1{
+        height: 30%;
+        margin-bottom: 2%;
+    }
+    .book{
+        padding: 15px 30px;
+    }
+    .center{
+        width: 100%;
+        margin-top: 25px;
+        text-align: center;
+    }
+    .other-rooms{
+        top: 0;
+    }
+    .room2-div{
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+        display: block;
+        height: 30%;
+        margin-bottom: 6%;
+    }
+    .room2{
+        height: 100%;
+        width: 100%;
+        right: 0;
+        bottom: 0;
+    }
+    .room3-div{
+        width: 100%;
+        margin: 0;
+        max-width: 100%;
+        display: block;
+        height: 30%;
+        margin-bottom: 6%;
+    }
+    .top-row{
+        display: contents;
+    }
+    .bottom-row{
+        display: contents;
+    }
+    .Ssize{
+        top: 620%;
+        z-index: 1;
+        background-color: white;
+        height: 300%;
+    }
+    .basic-and-standard{
+        display: contents;
+    }
+    .premium-and-inclusive{
+        display: contents;
+    }
+    .Service{
+        max-width: 100%;
+        width: 100%;
+    }
+    .Basic{
+        margin-bottom: 15px;
+    }
+    .Premium{
+        margin-bottom: 15px;
+    }
+    .premium-bottom{
+        height: 290px;
+    }
+    .All-service{
+        height: 24%;
+    }
+    .list-container{
+        width: 75%;
+    }
+    .around{
+        top: 920%;
+        height: 250%;
+    }
+    .immg-div{
+        max-width: 100%;
+        width: 100%;
+        height: 35%;
+        margin-right: 0;
+        margin-bottom: 30px;
+        display: inline-block;
+        overflow: hidden;
+    }
+    .immg{
+        width: 100%;
+        height: 200%;
+        bottom: 47.5%;
+        position: relative;
+        display: flex;
+    }
+    .over-picture{
+        width: 77%;
+        height: 25.2%;
+    }
+    .img3-div{
+        margin: 0;
+    }
+    .textAndPrice{
+        bottom: 38px;
+    }
+    .OR-price{
+        margin-left: 35%;
+    }
+    .client-reviews{
+        top: 1170%;
+        height: 200%;
+    }
+    #left1{
+        height: 33%;
+        float: initial;
+        padding-top: 10px;
+    }
+    #right1{
+        height: 60%;
+        width: 80%;
+        margin-top: 40px;
+        padding-top: 0;
+        float: initial;
+    }
+    #left2{
+        height: 33%;
+        float: initial;
+        padding-top: 10px;
+    }
+    #right2{
+        height: 60%;
+        margin-top: 12px;
+        width: 80%;
+        float: initial;
+        text-align: left;
+    }
+    .left{
+        margin-left: 50%;
+        transform: translate(-50%);
+    }
+    .client-name{
+        text-align: left;
+    }
+    .traveler{
+        text-align: left;
+    }
+    .just-title{
+        top: 1370%;
+    }
+    .G-maps{
+        top: 1390%;
+    }
+    .footer1{
+        top: 1450%;
+        height: 85%;
+    }
+    .div1{
+        width: 100%;
+        text-align: center;
+        margin: 0;
+        height: 35%;
+    }
+    .follow{
+        left: 0;
+    }
+    .center1{
+        height: 26.5%;
+    }
+    .end{
+        top: 1535%;
+    }
+}
